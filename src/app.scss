@@ -1,11 +1,11 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Public Sans', 'Helvetica Neue', sans-serif;
 }
 
-.font-lora {
-  font-family: 'Lora', serif;
+.font-rowan {
+  font-family: 'Rowan', ui-serif, Georgia, 'Times New Roman', serif;
 }
 
 a,
@@ -21,8 +21,23 @@ a:visited {
   position: fixed;
   z-index: -5;
 }
-.mapboxgl-ctrl-attrib-button {
-  display: none;
+
+
+.mapboxgl-ctrl-attrib {
+  font-size: 8px;
+  opacity: 0.8;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+.mapboxgl-ctrl-attrib a,
+.mapboxgl-ctrl-attrib {
+  color: rgba(255,255,255,0.7);
+}
+
+
+.mapboxgl-ctrl-attrib:hover {
+  opacity: 0.8;
 }
 
 #header {

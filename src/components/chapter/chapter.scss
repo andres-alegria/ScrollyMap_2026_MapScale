@@ -5,16 +5,15 @@
 
 .step {
   padding-bottom: 50vh;
-  min-height: 120vh; 
+  min-height: 120vh;
 }
 
-/* Stages should stack flush with each other */
+/* Stage chapters get vertical breathing room so key moments aren't rushed */
 .step.step-stage {
   padding-bottom: 0;
-  min-height: auto;
+  min-height: 70vh;
 }
 
-/* Optional: remove the built-in scroll spacer for specific chapters */
 .step.step--tight {
   padding-bottom: 0;
   min-height: auto;

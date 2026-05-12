@@ -2,11 +2,15 @@ const defaultTheme = require('tailwindcss/defaultTheme');
 
 module.exports = {
   fontFamily: {
-    display: ['Lora', 'Open Sans', ...defaultTheme.fontFamily.sans],
-    body: ['Lora', 'Open Sans', ...defaultTheme.fontFamily.sans],
+    display: ['Rowan', 'Public Sans', ...defaultTheme.fontFamily.sans],
+    body: ['Public Sans', ...defaultTheme.fontFamily.sans],
   },
   theme: {
     extend: {
+      fontFamily: {
+        rowan: ['Rowan', 'ui-serif', 'Georgia', 'Times New Roman', 'serif'],
+        sans: ['Public Sans', ...defaultTheme.fontFamily.sans],
+      },
       colors: {
         primary: '#03755E',
         mongazon: '#F1BA30',
