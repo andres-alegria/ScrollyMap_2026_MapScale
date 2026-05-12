@@ -133,7 +133,7 @@ const config = {
       id: "chapter-7",
       alignment: 'left',
       title: ' ',
-      description: "The draft Coastal Zone Management Plan (CZMP) map for Karaikal district left out the fish-drying centre, the turtle nesting site, the boat parking area, and several everyday spaces used by fishing communities.",
+      description: "The draft Coastal Zone Management Plan (CZMP) map for Karaikal district left out the fish-drying centre, the turtle nesting site, the boat parking area, and several everyday spaces used by fishing communities. <br> <br> This version was prepared in September 2024, after communities objected to an earlier 2023 map that did not even identify or name fishing villages.",
       images: [
         { src: 'MAP_Legend_short.JPG', position: 'top', title: '', alt: 'Legend from the draft Coastal Zone Management Plan map for Karaikal district' },
       ],
@@ -147,17 +147,6 @@ const config = {
     // Chapter 8
     {
       id: "chapter-8",
-      alignment: 'left',
-      title: ' ',
-      description: "This version was prepared in September 2024, after communities objected to an earlier 2023 map that did not even identify or name fishing villages.",
-      location: { center: [79.8516, 10.959621], zoom: 13.0, pitch: 0, bearing: 0 },
-      onChapterEnter: [],
-      onChapterExit: [],
-    },
-
-    // Chapter 9
-    {
-      id: "chapter-9",
       alignment: 'right',
       title: ' ',
       description: "The revised map includes some locations such as a community hall and an ice plant. <br> <br> But residents say many crucial spaces remain missing.",
@@ -172,9 +161,9 @@ const config = {
       onChapterExit: [],
     },
 
-    // Chapter 10
+    // Chapter 9
     {
-      id: "chapter-10",
+      id: "chapter-9",
       alignment: 'right',
       title: ' ',
       description: "Like a government-built fishermen's shelter.",
@@ -191,9 +180,9 @@ const config = {
       onChapterExit: [],
     },
 
-    // Chapter 11
+    // Chapter 10
     {
-      id: "chapter-11",
+      id: "chapter-10",
       alignment: 'right',
       title: ' ',
       description: "...and sand dunes that protect inland areas from saltwater intrusion.",
@@ -217,9 +206,9 @@ const config = {
       ],
     },
 
-    // Chapter 12 — "Scale." reveal; needs the breathing room from min-height on stage
+    // Chapter 11 — "Scale." reveal; needs the breathing room from min-height on stage
     {
-      id: "chapter-12",
+      id: "chapter-11",
       type: "stage",
       stage: "PlainText",
       title: "",
@@ -234,9 +223,9 @@ const config = {
       onChapterExit: [],
     },
 
-    // Chapter 13
+    // Chapter 12
     {
-      id: "chapter-13",
+      id: "chapter-12",
       alignment: 'left',
       title: ' ',
       description: "The draft map is drawn at 1:25,000. <br> <br> At this scale, one grid covers nearly 14 × 14 kilometres. <br> <br> Large-scale planning maps can show the landscape. Not how people use it.",
@@ -249,9 +238,9 @@ const config = {
       onChapterExit: [],
     },
 
-    // Chapter 14
+    // Chapter 13
     {
-      id: "chapter-14",
+      id: "chapter-13",
       alignment: 'left',
       title: ' ',
       description: "Authorities will later prepare a finer map at 1:4,000 scale where one grid covers 2.7 × 2.7 kilometres. But this version will not go through public consultation.",
@@ -263,9 +252,9 @@ const config = {
       onChapterExit: [],
     },
 
-    // Chapter 15
+    // Chapter 14
     {
-      id: "chapter-15",
+      id: "chapter-14",
       type: "stage",
       stage: "PlainText",
       title: "",
