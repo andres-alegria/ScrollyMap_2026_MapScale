@@ -69,7 +69,7 @@ const config = {
       title: ' ',
       description: "Just 200 metres away is a turtle nesting site. Elders in the village say turtles have come here for generations.",
       images: [
-        { src: 'image2.JPG', position: 'top', title: '', alt: 'Olive ridley turtle nesting site on the beach at Akkampetai' },
+        { src: 'image2.JPG', position: 'top', title: '', alt: 'Marine turtle nesting site on the beach at Akkampetai' },
       ],
       location: { center: [79.853086, 10.963800], zoom: 14.80, pitch: 50, bearing: -28 },
       onChapterEnter: [
@@ -179,7 +179,7 @@ const config = {
       title: ' ',
       description: "Like a government-built fishermen's shelter.",
       images: [
-        { src: 'image4.JPG', position: 'top', title: '', alt: "Government-built fishermen's shelter at Akkampetai" },
+        { src: 'image4.JPG', position: 'top', title: '', alt: "Government-built fishermen's shelter" },
       ],
       location: { center: [79.851, 10.970461], zoom: 15.0, pitch: 0, bearing: 0 },
       onChapterEnter: [
@@ -198,7 +198,7 @@ const config = {
       title: ' ',
       description: "...and sand dunes that protect inland areas from saltwater intrusion.",
       images: [
-        { src: 'image5.JPG', position: 'top', title: '', alt: 'Sand dunes near the shoreline at Akkampetai that protect against saltwater intrusion' },
+        { src: 'image5.JPG', position: 'top', title: '', alt: 'Sand dunes near the shoreline that protect against saltwater intrusion' },
       ],
       location: { center: [79.851, 10.970461], zoom: 15.0, pitch: 0, bearing: 0 },
       onChapterEnter: [
