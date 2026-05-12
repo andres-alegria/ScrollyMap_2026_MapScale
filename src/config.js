@@ -76,7 +76,7 @@ const config = {
   
    images: [
         {
-          src: 'image1.jpg',
+          src: 'image1.JPG',
           position: 'top',
           title: '',
         },
@@ -104,7 +104,7 @@ const config = {
   
    images: [
         {
-          src: 'image2.jpg',
+          src: 'image2.JPG',
           position: 'top',
           title: '',
         },
@@ -131,7 +131,7 @@ const config = {
 
  images: [
         {
-          src: 'image3.jpg',
+          src: 'image3.JPG',
           position: 'top',
           title: '',
         },
@@ -211,7 +211,7 @@ From space, these places look small. <br> <br> On the ground, they support livel
   
    images: [
         {
-          src: 'MAP_Legend.jpg',
+          src: 'MAP_Legend.JPG',
           position: 'top',
           title: '',
         },
@@ -280,7 +280,7 @@ From space, these places look small. <br> <br> On the ground, they support livel
 
    images: [
         {
-          src: 'image4.jpg',
+          src: 'image4.JPG',
           position: 'top',
           title: '',
         },
@@ -311,7 +311,7 @@ From space, these places look small. <br> <br> On the ground, they support livel
 
    images: [
         {
-          src: 'image5.jpg',
+          src: 'image5.JPG',
           position: 'top',
           title: '',
         },
