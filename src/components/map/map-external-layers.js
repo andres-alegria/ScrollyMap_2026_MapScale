@@ -1,4 +1,4 @@
-export default [
+const externalLayers = [
   // {
   //   id: '0b9f0100-ce5b-430f-ad8f-3363efa05481',
   //   slug: 'overall-environmental-democracy-index-score',
@@ -40,3 +40,4 @@ export default [
   //   // }
   // }
 ];
+export default externalLayers;

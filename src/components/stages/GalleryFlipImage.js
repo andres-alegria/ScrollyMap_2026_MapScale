@@ -41,31 +41,8 @@ export default function GalleryFlipImage(props = {}) {
 
 
   // Vertical scroll only: do NOT hijack mouse wheel for horizontal scrolling.
-  // If you ever want wheel-to-horizontal again, remove the return below.
-  return;
-    const step = Number.isFinite(scrollStep) ? Number(scrollStep) : cardWidth / 2;
-
-    const onWheel = (e) => {
-      // Only handle vertical wheel deltas; let trackpad horizontal pass through.
-      const dy = e.deltaY;
-      if (!dy) return;
-
-      const max = scroller.scrollWidth - scroller.clientWidth;
-      const atLeft = scroller.scrollLeft <= 0;
-      const atRight = scroller.scrollLeft >= max - 1;
-
-      // If we can scroll horizontally in the direction of the wheel, intercept it.
-      if ((dy > 0 && !atRight) || (dy < 0 && !atLeft)) {
-        e.preventDefault();
-        const next = scroller.scrollLeft + (dy > 0 ? step : -step);
-        scroller.scrollLeft = Math.max(0, Math.min(max, next));
-      }
-      // else: let it bubble so the scrolly can move to the next/prev chapter
-    };
-
-    // We must set passive:false so we can call preventDefault.
-    root.addEventListener("wheel", onWheel, { passive: false });
-    return () => root.removeEventListener("wheel", onWheel);
+  // If you ever want wheel-to-horizontal again, restore the commented onWheel handler.
+  return; // eslint-disable-line consistent-return
   }, [cardWidth, scrollStep]);
   const isShort = fillWidthWhenFew && data.length > 0 && data.length <= fillWidthMaxItems;
 

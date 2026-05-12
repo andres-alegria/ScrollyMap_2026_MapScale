@@ -9,7 +9,6 @@ const SocialIcons = ({ social }) => {
           title={social.name}
           alt={social.name}
           href={social.href}
-          // eslint-disable-next-line react/jsx-no-target-blank
           target="_blank"
           rel="noreferrer"
         >

@@ -1,6 +1,6 @@
 const { REACT_APP_MAPBOX_ACCESS_TOKEN } = process.env;
 
-export default {
+const config = {
   style: 'mapbox://styles/mongabay/cmp16a81s000301s0c994ckvb',
  
   accessToken: REACT_APP_MAPBOX_ACCESS_TOKEN,
@@ -432,3 +432,4 @@ Fishing communities worry that without indicating every detail on the map, their
 },    
   ],
 };
+export default config;

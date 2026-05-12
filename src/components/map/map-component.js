@@ -209,8 +209,6 @@ useEffect(() => {
     width: 1,
     opacity: 0.5
   };
-  let currentMarker = null;
-
   const applyLineStyle = (line = {}) => {
     currentLineStyle = {
       color: line.color ?? "#530e0d",
@@ -227,7 +225,6 @@ useEffect(() => {
 
   const applyMarkerStyle = (marker = {}) => {
     const useSvg = marker?.type === "svg" && marker?.svg;
-    currentMarker = useSvg ? marker : null;
     setAnimatedTrackMarker(useSvg ? marker : null);
 
     if (map.getLayer(DOT_LAYER_ID)) {

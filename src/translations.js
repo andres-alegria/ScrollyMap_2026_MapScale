@@ -1,4 +1,4 @@
-export default {
+const translations = {
   es: {
     "Narco airstrips": 'Narcopistas',
     "Using the Earth Index, an AI algorithm, Mongabay detected 76 clandestine landing strips hidden in the Peruvian Amazon.":'Mongabay y Earth Genome detectaron 67 pistas de aterrizaje clandestinas utilizadas para el transporte de droga en las regiones peruanas de Ucayali, Huánuco y Pasco.',
@@ -42,3 +42,4 @@ export default {
     "Sources": "Fuente"
   }
 };
+export default translations;
