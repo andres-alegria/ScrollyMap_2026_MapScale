@@ -34,7 +34,7 @@ const Intro = ({ title, subtitle, date, social, height }) => {
             <Arrow className="arrow-animate opacity-75 fill-current w-3 mb-1/2" />
             <Arrow className="arrow-animate opacity-75 fill-current w-3" />
           </div>
-          {t('Scroll down to follow the voyage')}
+          {t('Scroll down to find out')}
         </div>
         {social && <SocialIcons social={social} className="absolute bottom-0 left-0 ml-3 mb-3" />}
       </div>

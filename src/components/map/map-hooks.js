@@ -26,6 +26,27 @@ export const useScrollFunctionality = ({
   externalLayersOpacity,
   externalLayers
 }) => {
+  // Apply the first chapter's onChapterEnter as soon as the map loads.
+  // Without this, Mapbox renders all layers at their default style opacity
+  // until the first Waypoint fires (when the user scrolls to chapter 1),
+  // causing a brief flash of layers that should start hidden.
+  useEffect(() => {
+    if (!loaded || !map) return;
+    const firstChapter = chapters?.[0];
+    if (!firstChapter) return;
+
+    const externalLayersIds = (externalLayers || []).map((l) => l.id);
+    setOpacityOnAction(
+      firstChapter,
+      'onChapterEnter',
+      map,
+      {},
+      setExternalLayersOpacity,
+      externalLayersIds
+    );
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [loaded, map]); // intentionally run only once on map load
+
   useEffect(() => {
     if (!loaded || !map) return;
 

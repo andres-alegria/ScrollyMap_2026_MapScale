@@ -137,7 +137,7 @@ const config = {
         },
       ],
       
-  location: { center: [79.852405, 10.959621], zoom: 17.50, pitch: 50, bearing: -28 },
+  location: { center: [79.8516, 10.958], zoom: 17.250, pitch: 50, bearing: -28 },
   
   onChapterEnter: [
       { layer: 'icon_Turtle', opacity: 0, },
@@ -171,7 +171,7 @@ const config = {
 From space, these places look small. <br> <br> On the ground, they support livelihoods and biodiversity.
 </p> `,
 
-  location: { center: [79.852405, 10.959621], zoom: 9, pitch: 10, bearing: 0 },
+  location: { center: [79.8516, 10.959621], zoom: 9, pitch: 10, bearing: 0 },
 
 },    
 
@@ -186,7 +186,7 @@ From space, these places look small. <br> <br> On the ground, they support livel
   title: ' ',
   description: "So what happens when a map meant to guide infrastructure development and coastal protection misses these spots?",
 
-  location: { center: [79.825, 10.959621], zoom: 13.0, pitch: 0, bearing: 0 },
+  location: { center: [79.8516, 10.959621], zoom: 13.0, pitch: 0, bearing: 0 },
   
   onChapterEnter: [
           { layer: 'Akkampetai', opacity: 0, }, 
@@ -207,7 +207,7 @@ From space, these places look small. <br> <br> On the ground, they support livel
   title: ' ',
   description: "The draft Coastal Zone Management Plan (CZMP) map for Karaikal district left out the fish-drying centre, the turtle nesting site, the boat parking area, and several everyday spaces used by fishing communities.",
 
-  location: { center: [79.825, 10.959621], zoom: 13.0, pitch: 0, bearing: 0 },
+  location: { center: [79.8516, 10.959621], zoom: 13.0, pitch: 0, bearing: 0 },
   
    images: [
         {
@@ -234,7 +234,7 @@ From space, these places look small. <br> <br> On the ground, they support livel
   title: ' ',
   description: "This version was prepared in September 2024, after communities objected to an earlier 2023 map that did not even identify or name fishing villages.",
 
-  location: { center: [79.825, 10.959621], zoom: 13.0, pitch: 0, bearing: 0 },
+  location: { center: [79.8516, 10.959621], zoom: 13.0, pitch: 0, bearing: 0 },
   
   onChapterEnter: [
       ],
@@ -254,7 +254,7 @@ From space, these places look small. <br> <br> On the ground, they support livel
   title: ' ',
   description: "The revised map includes some locations such as a community hall and an ice plant. <br> <br> But residents say many crucial spaces remain missing.",
 
-  location: { center: [79.85349, 10.970461], zoom: 15.78, pitch: 0, bearing: 0 },
+  location: { center: [79.851, 10.970461], zoom: 15.0, pitch: 0, bearing: 0 },
   
   onChapterEnter: [
       { layer: 'icon_Hall', opacity: 1, },
@@ -286,7 +286,7 @@ From space, these places look small. <br> <br> On the ground, they support livel
         },
       ],
       
-  location: { center: [79.85349, 10.970461], zoom: 15.78, pitch: 0, bearing: 0 },
+  location: { center: [79.851, 10.970461], zoom: 15.0, pitch: 0, bearing: 0 },
   
  onChapterEnter: [
       { layer: 'icon_Hall', opacity: 1, },
@@ -317,7 +317,7 @@ From space, these places look small. <br> <br> On the ground, they support livel
         },
       ],
       
-  location: { center: [79.85349, 10.970461], zoom: 15.78, pitch: 0, bearing: 0 },
+  location: { center: [79.851, 10.970461], zoom: 15.0, pitch: 0, bearing: 0 },
   
   onChapterEnter: [
       { layer: 'icon_Hall', opacity: 1, },
@@ -379,7 +379,7 @@ Scale.
   title: ' ',
   description: "The draft map is drawn at 1:25,000. <br> <br> At this scale, one grid covers nearly 14 × 14 kilometres. <br> <br> Large-scale planning maps can show the landscape. Not how people use it.",
       
-  location: { center: [79.814736, 10.936032], zoom: 11.8, pitch: 0, bearing: 0 },
+  location: { center: [79.814736, 10.936032], zoom: 11, pitch: 0, bearing: 0 },
   
    onChapterEnter: [
       { layer: 'Akkampetai-overlay-14000', opacity: 0, },
@@ -402,7 +402,7 @@ Scale.
   title: ' ',
   description: "Authorities will later prepare a finer map at 1:4,000 scale where one grid covers 2.7 × 2.7 kilometres. But this version will not go through public consultation.",
       
-  location: { center: [79.778680, 10.956909], zoom: 16.08, pitch: 0, bearing: 0 },
+  location: { center: [79.779, 10.952], zoom: 14.7, pitch: 0, bearing: 0 },
   
    onChapterEnter: [
       { layer: 'Akkampetai-overlay-14000', opacity: 1, },
