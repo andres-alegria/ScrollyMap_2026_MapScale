@@ -10,7 +10,7 @@ const Logos = ({ logos }) => {
           alt={logo.name}
           href={logo.href}
           target="_blank"
-          rel="noopener"
+          rel="noreferrer"
         >
           <img
             src={logo.src}
